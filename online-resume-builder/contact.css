@@ -1,0 +1,111 @@
+body{
+    padding:75px;
+    text-align:center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: url(../online-resume-builder/img/conf.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1{
+    color:#c0c0c0;
+    font-weight:100;
+    font-size: 40px;
+}
+.nav .btn{
+    color:#999;
+    background:rgba(0, 0, 0, 0.5);
+    padding:10px 20px;
+    font-size:20px;
+    text-decoration:none;
+    letter-spacing:2px;
+    text-transform:uppercase;
+}
+.nav .btn:hover{
+    border:none;
+    background:rgba(0, 0, 0, 0.4);
+    background:#fff;
+    padding:20px 20px #000;
+    color:#1b1b1b;
+}
+.eight-navigation{
+    width: 100%;
+    max-width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(255, 255, 255, 0.722);
+    border-radius: 10px;
+}
+.eight-navigation h2{
+    color:#000;
+}
+.row{
+    display: flex;
+}
+.column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+.back{
+    width: 70%;
+    border-radius: 25px;
+    padding: 25px;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+  
+.about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+}
+  
+.container {
+    padding: 0 16px;
+}
+  
+.container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+  
+.title {
+    color: grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+  
+.eight-navigation a{
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 50%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+  
+a:hover {
+    background-color: #555;
+}
+img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
